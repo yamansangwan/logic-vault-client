@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // --- CONFIGURATION & GLOBAL STATE ---
 axios.defaults.withCredentials = true;
-const API_URL = "https://logic-vault-api.onrender.com"; 
+const API_URL = "https://logic-vault-api.onrender.com/api"; 
 
 export default function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
